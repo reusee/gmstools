@@ -23,7 +23,5 @@ func (t *tableIter[T]) Next(ctx *sql.Context) (sql.Row, error) {
 	}
 	elem := t.slice[0]
 	t.slice = t.slice[1:]
-	//TODO elem to row
-	_ = elem
-	panic("unimplemented")
+	return toSQLRow(elem), nil
 }
