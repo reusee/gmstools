@@ -6,6 +6,7 @@ require github.com/dolthub/go-mysql-server v0.17.1-0.20231019200756-3dfff837586e
 
 require (
 	github.com/cespare/xxhash v1.1.0 // indirect
+	github.com/dolthub/jsonpath v0.0.2-0.20230525180605-8dc13778fd72 // indirect
 	github.com/dolthub/vitess v0.0.0-20231018211336-45c2d7dce528 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/hashicorp/golang-lru v0.5.4 // indirect

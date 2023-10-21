@@ -12,9 +12,9 @@ type Table[T any] struct {
 }
 
 func New[T any](name string) *Table[T] {
-	//TODO get schema
 	return &Table[T]{
-		name: name,
+		name:   name,
+		schema: schemaFromType[T](name),
 	}
 }
 
